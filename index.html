@@ -4,16 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fruit-Brust</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .banner {
+          background-image: url('images/banner1.png');
+          
+        }
+    </style>
 </head>
 <body>
-    <nav>
-        <p>Home</p>
-        <p>About Us</p>
-        <p>Shop</p>
-        <p>All Fruits</p>
-        <img src="images/logo.png"
-    </nav>
+    <nav class="bg-red-400 p-4 flex items-center justify-between ml-20 mr-20 mt-8 mb-8 rounded-full">
+        <!-- Left side -->
+        <div class="flex items-center space-x-4 ml-4">
+          <a href="#" class="text-white">Home</a>
+          <a href="#" class="text-white">About Us</a>
+          <a href="#" class="text-white">Shop</a>
+          <a href="#" class="text-white">All Fruits</a>
+        </div>
+        <!-- Middle (Page name) -->
+        <div class="flex items-center space-x-4">
+            <div class=""><img src="images/logo.png"></div>
+            <div class="text-white text-2xl font-bold">Fruit-Burst</div>
+            
+
+        </div>
+        
+        <!-- Right side -->
+        <div class="flex items-center space-x-4 mr-4">
+          <div class="relative text-gray-600">
+            <input type="search" name="search" placeholder="Search" class="bg-white h-10 px-5 pr-10 rounded-full text-sm focus:outline-none">
+            <button type="submit" class="absolute right-0 top-0 mt-2 mr-4">
+        <!-- Search icon -->
+        <svg class="h-4 w-4 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path d="M21 21L15.803 15.803M15.803 15.803C17.2096 14.3965 17.9998 12.4887 17.9998 10.4995C17.9998 8.51035 17.2096 6.60262 15.803 5.19605C14.3964 3.78947 12.4887 2.99927 10.4995 2.99927C8.51029 2.99927 6.60256 3.78947 5.19599 5.19605C3.78941 6.60262 2.99921 8.51035 2.99921 10.4995C2.99921 12.4887 3.78941 14.3965 5.19599 15.803C6.60256 17.2096 8.51029 17.9998 10.4995 17.9998C12.4887 17.9998 14.3964 17.2096 15.803 15.803Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+            </button>
+          </div>
+        </div>
+     </nav>
+
+    <header>
+        <div class="banner bg-cover bg-center h-96 ml-20 mr-20 mt-8 mb-8 flex items-center justify-center text-white ">
+            <div class="text-center">
+                <h1 class="text-6xl font-bold">Exotic tastes at your
+                <br> doorstep</h1>
+                <p class="mt-4 text-md">We supply highly quality organic products</p>
+                <button class="mt-4 px-6 py-3 bg-red-500 rounded-md text-white">Shop now</button>
+        
+            </div>
+        </div>
+
+            <div class="bg-black p-4 flex items-center justify-between ml-60 mr-60 mt-8 mb-8">
+                  <!-- Fruit Item 1 -->
+                  <div class="bg-white p-4">
+                    <img src="images/fruit1.png" class="w-40 h-40 rounded-md">
+                    <h3 class="text-xl font-bold mt-2 ml-7">Fruit 1</h3>
+                  </div>
+                  <!-- Fruit Item 2 -->
+                  <div class="bg-white p-4">
+                    <img src="images/fruit3.png" class="w-40 h-40 rounded-md">
+                    <h3 class="text-xl font-bold mt-2 ml-7 ">Fruit 2</h3>
+                  </div>
+                  <!-- Fruit Item 3-->
+                  <div class="bg-white p-4">
+                    <img src="images/fruit2.png" class="w-40 h-40 rounded-md">
+                    <h3 class="text-xl font-bold mt-2 ml-7 ">Fruit 2</h3>
+                  </div>
+                  <!-- Fruit Item 4-->
+                  <div class="bg-white p-4">
+                    <img src="images/fruit4.png" class="w-40 h-40 rounded-md">
+                    <h3 class="text-xl font-bold mt-2 ml-7 ">Fruit 2</h3>
+                  </div>
+                  <!-- Fruit Item 5 -->
+                  <div class="bg-white p-4">
+                    <img src="images/fruit5.png" class="w-40 h-40 rounded-md">
+                    <h3 class="text-xl font-bold mt-2 ml-7 ">Fruit 2</h3>
+                  </div>
+                </div>
+            </div>
+
+    </header>
     
 </body>
 </html>
